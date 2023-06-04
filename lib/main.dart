@@ -90,7 +90,7 @@ class _AppState extends State<App> {
       theme: ThemeData(
         colorSchemeSeed: colorSelectionMethod == ColorSelectionMethod.colorSeed
             ? colorSelected.color
-            : imageColorScheme!.primary,
+            : null,
         colorScheme: colorSelectionMethod == ColorSelectionMethod.image
             ? imageColorScheme
             : null,
